@@ -1,0 +1,41 @@
+/**
+* Plugin Name: Post Status
+* Description: A simple non bloated plugin to set and activate status messages.
+* Author: NishitKumar
+* Version: 1.0
+* License: GPLv2 or later
+* License URI: https://www.gnu.org/licenses/gpl-2.0.html
+*/
+
+
+/**
+* 1.0 Table formating
+*
+* All classes that handled the table display
+*/
+
+.table-status {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.row-status{
+  border-bottom: 1px solid #ddd;
+  text-align: left;
+}
+
+.status-td{
+    text-align: left;
+}
+
+
+/**
+* 2.0 General Formatting
+*
+*/
+
+/* Ensures that the header 2 is center aligned and has 5vw top margin */
+.header2-status {
+    text-align: center;
+    margin: 5vw 0 0 0;
+}
